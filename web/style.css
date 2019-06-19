@@ -1,0 +1,530 @@
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#index_table{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
+
+#index_left{
+  width: 65.3vw;
+  background-color: #FAC7BE;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#index_right{
+  width: 34.7vw;
+  background-color: #FCF4E9;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#line1{
+  font-family: sf_compact_display_light;
+  color: white;
+  font-size: 38px;
+  letter-spacing: 0.1em;
+  margin-left: 6.58vw;
+  margin-top: 64.32vh;
+}
+
+#line2{
+  font-family: sf_compact_display_medium;
+  color: white;
+  font-size: 45px;
+  letter-spacing: 0.1em;
+  margin-left: 6.58vw;
+  margin-top: 0.05vh;
+}
+
+#title{
+  font-family: soul_paparegular;
+  color: #E98D8E;
+  font-size: 130px;
+  text-align: center;
+  margin-top: 0.177vh;
+  margin-bottom: 0;
+}
+
+
+.label_signin{
+  font-family: sf_compact_display_medium;
+  color: #484847;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  margin-left: 6.8vw;
+
+}
+
+.label{
+  font-family: sf_compact_display_medium;
+  color: #484847;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  margin-left: 1.8vw;
+  margin-bottom: 0.8vh;
+  margin-top: 3vh;
+}
+
+.signin_field{
+  border-radius: 15px;
+  width: 21.08vw;
+  height: 6.38vh;
+  background-color: #FFFDFA;
+  border: #FAC7BE solid 2px;
+  box-shadow: black 1px 1px 3px;
+  font-family: sf_compact_display_light;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #676464;
+  margin-left: 6.8vw;
+  padding-left: 15px;
+  outline: none;
+}
+
+.signup_field1,.signup_field2,.signup_field3{
+  border-radius: 15px;
+  height: 4vh;
+  background-color: #FFFDFA;
+  border: #FAC7BE solid 2px;
+  box-shadow: black 1px 1px 3px;
+  font-family: sf_compact_display_light;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: #676464;
+  margin: 0 1vw;
+  padding-left: 15px;
+  outline: none;
+}
+
+.signup_field1{
+  width: 35vw;
+}
+
+.signup_field2{
+  width: 15.5vw;
+}
+
+.signup_field3{
+  width: 9.2vw;
+}
+
+.gender_selector{
+  margin-left: 1.8vw;
+  width: 15.5vw;
+  font-family: sf_compact_display_light;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+}
+
+.submit_button{
+  border-radius: 35px;
+  background-color: #FAC7BE;
+  font-family: sf_compact_display_medium;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-shadow: grey 1px 1px 3px;
+  box-shadow: black 1px 1px 3px;
+  border: 0;
+  width: 15.88vw;
+  height: 5.85vh;
+  margin-top: 6.64vh;
+  padding: 5px;
+  margin-left: 9.44vw;
+  outline: none;
+}
+
+.submit_button_signup{
+  border-radius: 35px;
+  background-color: #FAC7BE;
+  font-family: sf_compact_display_medium;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-shadow: grey 1px 1px 3px;
+  box-shadow: black 1px 1px 3px;
+  border: 0;
+  width: 15.88vw;
+  height: 5.85vh;
+  margin-top: 6.64vh;
+  padding: 5px;
+  margin-left: 10vw;
+  margin-bottom: 0;
+}
+
+.submit_button:hover, .submit_button_signup:hover{
+  background-color: #E98D8E;
+}
+
+a:hover{
+  color: #C75C5C;
+}
+
+
+a{
+  color: #E98D8E;
+}
+
+#prompt_signup{
+  font-family: sf_compact_display_medium;
+  color: #484847;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 8.72vh;
+}
+
+#prompt_signin{
+  font-family: sf_compact_display_medium;
+  color: #484847;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 3.72vh;
+}
+
+#createAccountTitle{
+  font-family: sf_compact_display_medium;
+  color: #E98D8E;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 6vh;
+}
+#logo_word{
+  font-family: soul_paparegular;
+  color: #E98D8E;
+  font-size: 55px;
+}
+
+#nav_logo_main{
+  height: 2.85vw;
+  width: 2.85vw;
+}
+
+
+
+.icon{
+  width: 5vw;
+  height: 5vw;
+}
+
+.icon_button{
+  border: 1px solid green;
+  background-color: white;
+  width: 5vw;
+  height: 5vw;
+}
+
+@font-face {
+  font-family: soul_paparegular;
+  src: url('soulpapa-webfont.woff2') format('woff2'),
+  url('soulpapa-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: sf_compact_display_light;
+  src: url('SF_Compact_Display_Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: sf_compact_display_medium;
+  src: url('SF_Compact_Display_Medium.otf') format('opentype');
+}
+
+
+
+
+
+/*
+#index_logo{
+  height: 30vw;
+}
+
+#dotted{
+  height: 1vw;
+  margin-right: 1vw;
+}
+
+h1{
+  font-family: soul_paparegular;
+  font-size: 2vw;
+  font-weight: 200;
+  letter-spacing: 0.4vw;
+}
+
+h2{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.6vw;
+  font-weight: 600;
+  letter-spacing: 0.2vw;
+}
+
+
+h3{
+  display: inline;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 500;
+  letter-spacing: 0.2vw;
+  line-height: 3vw;
+}
+
+#sign_up{
+  background-color: #E0527E;
+  border-radius: 20px;
+  height: 3vw;
+  width: 25vw;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.1vw;
+  font-weight: 300;
+  letter-spacing: 0.2vw;
+  margin-top: 5vw;
+}
+
+#sign_in{
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  height: 3vw;
+  width: 25vw;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.1vw;
+  font-weight: 300;
+  letter-spacing: 0.2vw;
+  margin-top: 5vw;
+}
+
+#grad{
+  height: 5.5vw;
+  background-image: linear-gradient(90deg, #DD5E89, #F7BB97);
+  padding: 0;
+}
+
+#nav_logo, #nav_logo_main{
+  height: 4vw;
+}
+
+#nav_logo_main{
+
+}
+
+h4{
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 600;
+  letter-spacing: 0.3vw;
+}
+
+h5{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 500;
+  letter-spacing: 0.2vw;
+  text-align: right;
+  color:  black;
+}
+
+a.visited{
+  text-underline: #EEEEEE;
+}
+
+#signup_field{
+  margin-top: 5vw;
+}
+
+#write_post{
+  background-color: #EEEEEE;
+  border-radius: 20px;
+  width: 60vw;
+  margin-left: 5vw;
+  height: 3.5vw;
+  border: 0;
+}
+
+h6{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.4vw;
+  font-weight: 200;
+  letter-spacing: 0.5vw;
+  text-align: left;
+  line-height: 3.5vw;
+  margin-top: 0vw;
+  margin-left: 2vw;
+}
+
+.writepost-popup {
+  display: none;
+  margin-top: -5vw;
+  margin-left: 19vw;
+  width: 60vw;
+
+}
+
+
+#post{
+  width: 80%;
+  height: 8vw;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1vw;
+  font-weight: 200;
+  letter-spacing: 0.3vw;
+  text-align: left;
+  border:0;
+  border-radius: 20px;
+  width:60vw;
+  padding: 1vw;
+}
+
+#own, #own_posts, #all_posts, #interested{
+  background-color: #FEFEFE;
+  box-shadow: 1px 1px #555555;
+  border-radius: 10px;
+  padding: 1vw;
+  margin: 2vw 0;
+
+}
+
+#own, #own_posts{
+  width: 80%;
+}
+
+#all_posts{
+  width: 90%;
+}
+
+#interested{
+  width: 100%;
+}
+
+#own{
+  text-align: center;
+}
+
+#own_posts{
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 30vw;
+}
+
+#all_posts{
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 40vw;
+}
+
+#interested{
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 40vw;
+}
+
+h7{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 200;
+  letter-spacing: 0.4vw;
+  line-height: 3vw;
+}
+
+h8{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 600;
+  letter-spacing: 0.2vw;
+
+}
+#own_content{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 600;
+  letter-spacing: 0.2vw;
+  margin-bottom: 1vw;
+}
+
+#date{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8vw;
+  font-weight: 200;
+  letter-spacing: 0.4vw;
+  margin-top: 1vw;
+  line-height: 2vw;
+}
+
+#date, #p_date{
+  text-align: right;
+  margin-bottom: 1vw;
+  border-bottom: 0.5px grey solid;
+  padding-bottom: 1vw;
+}
+
+h9{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8vw;
+  font-weight: 200;
+  letter-spacing: 0.4vw;
+}
+
+h10{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 2vw;
+  font-weight: 600;
+  letter-spacing: 0.4vw;
+  color: red;
+
+}
+
+#leaderboard{
+  margin-bottom: 1vw;
+}
+
+#leader_user{
+  margin-bottom: 2vw;
+  border-bottom: 0.5px grey solid;
+  padding-bottom: 1vw;
+  text-align: center;
+}
+
+.p_username{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 200;
+  letter-spacing: 0.4vw;
+  line-height: 3vw;
+}
+
+.p_content{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 1.2vw;
+  font-weight: 600;
+  letter-spacing: 0.2vw;
+  margin-bottom: 1vw;
+}
+
+.p_date{
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.8vw;
+  font-weight: 200;
+  letter-spacing: 0.4vw;
+  margin-top: 1vw;
+  line-height: 2vw;
+}
+
