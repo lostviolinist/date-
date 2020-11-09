@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="localhost-date:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8995638b-defe-405e-9dfc-185b7b398dc3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../src/EditProfileServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/MessageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/SearchUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/message.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/rubbish.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/WEB-INF/classes/DeletePostServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/WEB-INF/classes/DeletePostServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/editProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/editProfile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/filled_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/filled_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/artifacts/localhost_date_war_exploded/search.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/localhost-date/DeletePostServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/localhost-date/DeletePostServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/DeletePostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/DeletePostServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/editProfile.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/editProfile.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/filled_heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../web/filled_heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/heart.png" beforeDir="false" afterPath="$PROJECT_DIR$/../web/heart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../web/addImage.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="jsf" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/WEB-INF/signup.jsp" />
+        <option value="$PROJECT_DIR$/web/process_signup.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/main.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/writePost.jsp" />
+        <option value="$PROJECT_DIR$/web/writePost.jsp" />
+        <option value="$PROJECT_DIR$/web/process_editProfile.jsp" />
+        <option value="$PROJECT_DIR$/web/signin.jsp" />
+        <option value="$PROJECT_DIR$/web/signup.jsp" />
+        <option value="$PROJECT_DIR$/web/signout.jsp" />
+        <option value="$PROJECT_DIR$/web/process_signup.jsp" />
+        <option value="$PROJECT_DIR$/web/deletePost.jsp" />
+        <option value="$PROJECT_DIR$/web/give_heart.jsp" />
+        <option value="$PROJECT_DIR$/web/process_signin.jsp" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/SignInServlet.java" />
+        <option value="$PROJECT_DIR$/web/style.css" />
+        <option value="$PROJECT_DIR$/out/artifacts/localhost_date_war_exploded/style.css" />
+        <option value="$PROJECT_DIR$/web/addImage.jsp" />
+        <option value="$PROJECT_DIR$/src/EditProfileServlet.java" />
+        <option value="$PROJECT_DIR$/web/search.jsp" />
+        <option value="$PROJECT_DIR$/src/SearchUserServlet.java" />
+        <option value="$PROJECT_DIR$/src/GiveHeartServlet.java" />
+        <option value="$PROJECT_DIR$/src/DeletePostServlet.java" />
+        <option value="$PROJECT_DIR$/web/tem.jsp" />
+        <option value="$PROJECT_DIR$/web/editProfile.jsp" />
+        <option value="$PROJECT_DIR$/web/message.jsp.xhtml" />
+        <option value="$PROJECT_DIR$/web/main.jsp" />
+        <option value="$PROJECT_DIR$/web/main.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/MessageServlet.java" />
+        <option value="$PROJECT_DIR$/web/profile.jsp" />
+        <option value="$PROJECT_DIR$/web/message.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/out/artifacts/localhost_date_war_exploded" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/out/artifacts/localhost_date_war_exploded/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="localhost-date:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_20_localhost-date" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63146" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="localhost-date:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8995638b-defe-405e-9dfc-185b7b398dc3" name="Default Changelist" comment="" />
+      <created>1559228763099</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559228763099</updated>
+      <workItem from="1559228767046" duration="35548000" />
+      <workItem from="1560134273931" duration="2780000" />
+      <workItem from="1560248363404" duration="28786000" />
+      <workItem from="1560403495348" duration="404000" />
+      <workItem from="1560404463995" duration="34776000" />
+      <workItem from="1560834173934" duration="133000" />
+      <workItem from="1560878360903" duration="48000" />
+      <workItem from="1560912238340" duration="123000" />
+      <workItem from="1560912648721" duration="624000" />
+      <workItem from="1561338973162" duration="6074000" />
+      <workItem from="1562346862150" duration="14545000" />
+      <workItem from="1563157449103" duration="5327000" />
+      <workItem from="1563293340322" duration="5434000" />
+      <workItem from="1563550185830" duration="21315000" />
+      <workItem from="1563578620084" duration="24000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="155941000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" sideWeight="0.39363056" side_tool="true" visible="true" weight="0.26466382" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.60636944" visible="true" weight="0.26824033" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.03821656" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.23390558" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32953367" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.30955413" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/process_signup.java" />
+    <entry file="file://$PROJECT_DIR$/web/process_editProfile.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/SF_Compact_Display_Light.otf" />
+    <entry file="file://$PROJECT_DIR$/web/SF_Compact_Display_Medium.otf" />
+    <entry file="file://$PROJECT_DIR$/web/signin.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/signout.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/heart.png" />
+    <entry file="file://$PROJECT_DIR$/web/search.png" />
+    <entry file="file://$PROJECT_DIR$/web/hander.png" />
+    <entry file="file://$PROJECT_DIR$/web/women_icon.png" />
+    <entry file="file://$PROJECT_DIR$/web/man_icon.png" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/localhost_date_war_exploded/message.png" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/localhost_date_war_exploded/logo.png" />
+    <entry file="file://$PROJECT_DIR$/web/logo.png" />
+    <entry file="file://$PROJECT_DIR$/web/message.png" />
+    <entry file="file://$PROJECT_DIR$/web/deletePost.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/give_heart.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/process_signin.jsp" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/localhost_date_war_exploded/main.css" />
+    <entry file="file://$PROJECT_DIR$/web/signup.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/style.css" />
+    <entry file="file://$PROJECT_DIR$/web/filled_heart.png" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/localhost_date_war_exploded/style.css" />
+    <entry file="file://$PROJECT_DIR$/web/process_signup.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/addImage.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/search.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/SearchUserServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/DeletePostServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/tem.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/SignInServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/message.jsp.xhtml" />
+    <entry file="file://$PROJECT_DIR$/web/rubbish.png" />
+    <entry file="file://$PROJECT_DIR$/web/editProfile.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/main.css" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/EditProfileServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/GiveHeartServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/writePost.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/profile.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/MessageServlet.java" />
+    <entry file="file://$PROJECT_DIR$/web/message.jsp" />
+    <entry file="file://$PROJECT_DIR$/web/main.jsp" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>localhost-date:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -28,13 +28,18 @@ public class DeletePostServlet extends HttpServlet {
                 "rootroot").createStatement();
 
         String date = request.getParameter("date");
+        String src = request.getParameter("src");
 
 
         System.out.println(date);
         String sql = "delete from posts where post_date = \""+date+"\";";
         stm.executeUpdate(sql);
 
-        response.sendRedirect("main.jsp");}catch(Exception e){
+        if(src.equals("main"))
+            response.sendRedirect("main.jsp");
+        if(src.equals("profile"))
+            response.sendRedirect("profile.jsp?userName="+session.getAttribute("userId").toString());
+        }catch(Exception e){
 
         }
     }

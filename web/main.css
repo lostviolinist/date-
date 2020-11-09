@@ -56,8 +56,16 @@ body{
 #profile_picture_upright{
     height: 3.8vw;
     width: 3.8vw;
+
+}
+
+#upright_crop_image{
+    height: 3.8vw;
+    width: 3.8vw;
     float: right;
     margin-right: 1vw;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 #heart_logo{
@@ -105,10 +113,11 @@ body{
     background-color: white;
     margin: 0;
     outline: none;
+    border-radius: 40%;
 }
 
 .icon_button:hover{
-    background-color: #EFEFEF;
+    background-color: #FCDFDA;
 }
 
 .menu_button{
@@ -129,8 +138,16 @@ body{
 #profile_picture{
     width: 5.27vw;
     height: 5.27vw;
+
+}
+
+#profile_picture_crop_image{
+    width: 5.27vw;
+    height: 5.27vw;
     margin-left: 1vw;
     margin-right: 1vw;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 #fullname{
@@ -169,6 +186,12 @@ body{
     height: 70.31vh;
 }
 
+#profile_page_own_posts{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 55.47vh;
+}
+
 #own_post_date{
     font-family: sf_compact_display_light;
     color: #C75C5C;
@@ -188,7 +211,7 @@ body{
     margin-top: 0.5vh;
 }
 
-#write_post_label{
+.write_post_label{
     font-family: sf_compact_display_medium;
     color: #5D5D5D;
     font-size: 20px;
@@ -268,10 +291,17 @@ body{
 .profile_picture_posts{
     height: 3.8vw;
     width: 3.8vw;
+}
+
+.posts_crop_image, .message_crop_image{
+    height: 3.8vw;
+    width: 3.8vw;
     float: right;
     margin-right: 0.5vw;
     margin-left: 0.5vw;
     margin-top: 0;
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 .content_table{
@@ -299,10 +329,16 @@ body{
     height: 79.2vh;
 }
 
+#profile_page_leaderboard_content{
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 58vh;
+    border-left: #EBEBEB solid 2px;
+}
 
 .all_post_heart{
-    width: 1.8vw;
-    height: 1.8vw;
+    width: 1.2vw;
+    height: 1.2vw;
     margin-left: 1vw;
 }
 
@@ -317,6 +353,8 @@ body{
 .filled_heart{
     margin-left: 3vw;
     margin-top: 1vh;
+    width: 1.2vw;
+    height: 1.2vw;
 }
 
 #leaderboard_username{
@@ -324,6 +362,7 @@ body{
     color: #E98D8E;
     font-size: 14px;
     letter-spacing: 0.1em;
+    margin-left: 2vw;
 }
 
 #leaderboard_heart_count{
@@ -331,15 +370,263 @@ body{
     color: #5D5D5D;
     font-size: 13px;
     letter-spacing: 0.1em;
+    margin-left: 2vw;
 }
+
+#profile_container, #editprofile_container{
+    width: 58vw;
+    height: 81.12vh;
+    background-color: white;
+    border: #EBEBEB solid 2px;
+    border-radius: 15px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+#editprofile_container{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#profile_icon{
+    width: 7.61vw;
+    height: 7.61vw;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+#profilePage_profilePic{
+    width: 7.61vw;
+    height: 7.61vw;
+
+}
+
+#profile_page_fullname{
+    font-family: sf_compact_display_medium;
+    color: #E98D8E;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin-top: 1vh;
+    margin-bottom: 0;
+    display: inline-block;
+}
+
+#profile_page_editprofile{
+    background-color: #FAC7BE;
+    border: 0;
+    border-radius: 9px;
+    font-family: sf_compact_display_medium;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    float: right;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 2vh;
+    margin-right: 3vw;
+}
+
+#profile_page_editprofile:hover{
+    background-color: #E98D8E;
+}
+
+#profile_page_username{
+    font-family: sf_compact_display_light;
+    color: #5D5D5D;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    margin: 1vh 0;
+}
+
+.profile_page_details{
+    font-family: sf_compact_display_medium;
+    color: #5D5D5D;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    margin: 0.5vh 0;
+}
+
+.profile_page_count{
+    font-family: sf_compact_display_medium;
+    color: #575454;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    margin: 0;
+    text-align: center;
+}
+
+.profile_page_count_label{
+    font-family: sf_compact_display_medium;
+    color: #858585;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    margin-top: 0;
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+#profile_page_left_label, #profile_page_right_label{
+    text-align: center;
+    font-family: sf_compact_display_medium;
+    font-size: 16px;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border-top: #EBEBEB solid 2px;
+    border-bottom: #EBEBEB solid 2px;
+    margin-top: -1.2vh;
+}
+
+#profile_page_left_label{
+    color: #5D5D5D;
+    letter-spacing: 0.2em;
+}
+
+#profile_page_right_label{
+    color: #FFFFFF;
+    background-color: #FAC7BE;
+    border-left: #EBEBEB solid 2px;
+    letter-spacing: 0.1em;
+}
+
+#rubbish{
+    width: 1vw;
+
+}
+
+#grad, #signup_field{
+    margin-left: 10vw;
+}
+
+#message_leaderboard_content{
+    background-color: white;
+    border-radius: 15px;
+    border: #EBEBEB 1px solid;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#message_history{
+    background-color: white;
+    height: 37.5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border-radius: 15px;
+    border: #EBEBEB 1px solid;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.message_crop_image .tooltiptext {
+    font-family: sf_compact_display_medium;
+    visibility: hidden;
+    width: 100px;
+    background-color: white;
+    color: #A39D9D;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    border: #D8D8D8 1px solid;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    margin-left: -5.5vw; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-top: -3vh;
+}
+
+.message_crop_image:hover .tooltiptext {
+    visibility: visible;
+}
+
+#message_name{
+    height: 7.5vh;
+    width: 100%;
+    border-bottom: #EBEBEB 1px solid;
+
+}
+
+.message{
+    font-family: sf_compact_display_medium;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    margin: 1vw;
+    margin-bottom: 0;
+    padding: 1vh 1vw;
+    border-radius: 15px;
+}
+
+#message_type{
+    height: 7.5vh;
+    width: 100%;
+    border-top: #EBEBEB 1px solid;
+}
+
+#message_field{
+
+    border-radius: 15px;
+    width: 90%;
+
+    margin: 2vh auto;
+}
+
+#type_message{
+    width: 80%;
+    border: none;
+    outline: none;
+    float: left;
+    line-height: 2em;
+    color: #858585;
+    font-family: sf_compact_display_medium;
+    font-size: 15px;
+    letter-spacing: 0.15em;
+}
+
+#send_button{
+    float: right;
+    border: 0;
+    outline: none;
+    border-radius: 40%;
+    background-color: white;
+}
+
+#send_button:hover{
+    background-color: #FCDFDA;
+}
+
 
 a{
     text-decoration: none;
+    font-family: sf_compact_display_medium;
+
+}
+
+
+body{
+    font-family: sf_compact_display_medium;
+    font-size: 15px;
+    letter-spacing: 0.1em;
+}
+
+h4{
+    font-size: 25px;
+}
+
+h5{
+    font-size: 18px;
 }
 
 table{
     padding: 0;
     margin: 0;
+}
+
+input{
+    outline: none;
 }
 
 @font-face {

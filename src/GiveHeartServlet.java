@@ -33,8 +33,11 @@ public class GiveHeartServlet extends HttpServlet {
                     "rootroot").createStatement();
 
             stm.executeUpdate(sql);
-
-            response.sendRedirect("main.jsp");
+            if(request.getParameter("from")!=null){
+                response.sendRedirect("profile.jsp?userName="+receiver);
+            }else {
+                response.sendRedirect("main.jsp");
+            }
         }catch(Exception e){
             System.out.println("SQL error");
         }

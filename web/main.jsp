@@ -70,19 +70,15 @@ Statement stm = DriverManager.getConnection(
             <table class="content_table">
                 <tr>
                     <td>
-                        <form action="search.jsp" method="post">
+                        <form action="SearchUserServlet" method="post">
                             <div id="search_bar">
-                                <input type="text" id="search_field" placeholder="Search"/>
+                                <input type="text" name="search_field" id="search_field" placeholder="Search"/>
                                 <button class="icon_button" id="search_button"><img class="icon" src="search.png"/></button>
                             </div>
                         </form>
                     </td>
                     <td>
-                        <button class="icon_button" id="heart_logo"><img class="icon_r" src="heart.png"/></button>
-
-                    </td>
-                    <td>
-                        <button class="icon_button"><img class="icon_r" src="message.png"/></button>
+                        <a href="message.jsp"><button class="icon_button"><img class="icon_r" src="message.png"/></button></a>
                     </td>
                 </tr>
             </table>
@@ -91,12 +87,12 @@ Statement stm = DriverManager.getConnection(
             <table class="content_table">
                 <tr>
                     <td>
-                        <img id="profile_picture_upright" src="<%=profile_picture%>"/>
+                        <a href="profile.jsp?userName=<%=userName%>"><div id="upright_crop_image"><img id="profile_picture_upright" src="<%=profile_picture%>"/></div></a>
                     </td>
 
                     <td>
-                        <p id="fullname_upright"><%=fullname%></p>
-                        <p id="username_upright"><%="@"+userName%></p>
+                        <a href="profile.jsp?userName=<%=userName%>"><p id="fullname_upright"><%=fullname%></p></a>
+                        <a href="profile.jsp?userName=<%=userName%>"><p id="username_upright"><%="@"+userName%></p></a>
                     </td>
                     <td>
                         <button class="icon_button" onclick="open_close_menu()"><img class="icon" src="hander.png"/></button>
@@ -118,8 +114,8 @@ Statement stm = DriverManager.getConnection(
                 </tr>
             </table>
             <div class="menu-popup" id="upright_menu">
-                <a href="editProfile.jsp"><button class="menu_button">My Profile</button></a><br>
-                <a href="editProfile.jsp"><button class="menu_button">Interested In</button></a>
+                <a href="profile.jsp?userName=<%=userName%>"><button class="menu_button">My Profile</button></a><br>
+                <a href="message.jsp"><button class="menu_button">Message</button></a>
                 <form action="signout.jsp" method="post">
                     <button class="menu_button">Sign Out</button>
                 </form>
@@ -135,10 +131,10 @@ Statement stm = DriverManager.getConnection(
                             <table>
                                 <tr>
                                     <td>
-                                        <img id="profile_picture" src="<%=profile_picture%>"/>
+                                        <a href="profile.jsp?userName=<%=userName%>"><div id="profile_picture_crop_image"><img id="profile_picture" src="<%=profile_picture%>"/></div></a>
                                     </td>
                                     <td>
-                                        <p id="fullname"><%=firstName%></p>
+                                        <a href="profile.jsp?userName=<%=userName%>"><p id="fullname"><%=firstName%></p></a>
                                         <p class="details"><%=count+" posts"%></p>
                                         <%
                                             String sql_count_interested="select * from hearts where sender = \""+userName+"\";";
@@ -180,7 +176,7 @@ Statement stm = DriverManager.getConnection(
                     %>
                     <tr>
                         <td width="100%">
-                            <div id="own_post_date"><%=own_post[i][1].substring(0,16)+"      "%><a href="DeletePostServlet?date=<%=own_post[i][1].substring(0,19)%>" style="text-decoration: none; color: #C75C5C">[DEL]</a></div>
+                            <div id="own_post_date"><%=own_post[i][1].substring(0,16)+"      "%><a href="DeletePostServlet?date=<%=own_post[i][1].substring(0,19)%>&src=main" style="text-decoration: none; color: #C75C5C; font-weight: bold;"><img id="rubbish" src="rubbish.png"/></a></div>
                             <div id="own_post_content"><%=own_post[i][0]%></div>
 
                         </td>
@@ -195,7 +191,7 @@ Statement stm = DriverManager.getConnection(
             <table style="width: 92%; margin: 0 auto;">
                 <tr>
                     <td>
-                        <p id="write_post_label">Write Post</p>
+                        <p class="write_post_label">Write Post</p>
                     </td>
                 </tr>
                 <form action="writePost.jsp" method="post">
@@ -262,17 +258,17 @@ Statement stm = DriverManager.getConnection(
                             <tr>
 
                                 <td>
-                                    <img class="profile_picture_posts" src="<%=all_posts[j][3]%>"/>
+                                    <a href="profile.jsp?userName=<%=all_posts[j][0]%>"><div class="posts_crop_image"><img class="profile_picture_posts" src="<%=all_posts[j][3]%>"/></div></a>
                                 </td>
                                 <td>
                                     <%
                                         if(!hearts_sent.contains(all_posts[j][2].substring(0,19))){
                                     %>
-                                    <p class="all_post_username"><%="@"+all_posts[j][0]%><a href="GiveHeartServlet?username=<%=all_posts[j][0]%>&post=<%=all_posts[j][2].substring(0,19)%>"><img class="all_post_heart" src="heart.png"/></a></p>
+                                    <p class="all_post_username"><a style="color: #E98D8E;" href="profile.jsp?userName=<%=all_posts[j][0]%>"><%="@"+all_posts[j][0]%></a><a href="GiveHeartServlet?username=<%=all_posts[j][0]%>&post=<%=all_posts[j][2].substring(0,19)%>"><img class="all_post_heart" src="heart.png"/></a></p>
                                     <%
                                         }else{
                                     %>
-                                    <p class="all_post_username"><%="@"+all_posts[j][0]%><img class="all_post_heart" src="filled_heart.png"/></p>
+                                    <p class="all_post_username"><a style="color: #E98D8E;" href="profile.jsp?userName=<%=all_posts[j][0]%>"><%="@"+all_posts[j][0]%></a><img class="all_post_heart" src="filled_heart.png"/></p>
                                     <%
                                         }
                                     %>
@@ -351,10 +347,10 @@ Statement stm = DriverManager.getConnection(
                     %>
                     <tr>
                         <td>
-                            <img class="profile_picture_posts" src="<%=display[i][2]%>"/>
+                            <a href="profile.jsp?userName=<%=display[i][0]%>"><div class="posts_crop_image"><img class="profile_picture_posts" src="<%=display[i][2]%>"/></div></a>
                         </td>
                         <td>
-                            <p id="leaderboard_username"><%="@"+display[i][0]%></p>
+                            <a href="profile.jsp?userName=<%=display[i][0]%>"><p id="leaderboard_username"><%="@"+display[i][0]%></p></a>
                             <p id="leaderboard_heart_count"><%=display[i][1]+" hearts"%></p>
                         </td>
 

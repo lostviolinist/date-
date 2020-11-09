@@ -29,4 +29,28 @@
         <servlet-name>SignInServlet</servlet-name>
         <url-pattern>/SignInServlet</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>EditProfileServlet</servlet-name>
+        <servlet-class>EditProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EditProfileServlet</servlet-name>
+        <url-pattern>/EditProfileServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchUserServlet</servlet-name>
+        <servlet-class>SearchUserServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchUserServlet</servlet-name>
+        <url-pattern>/SearchUserServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MessageServlet</servlet-name>
+        <servlet-class>MessageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MessageServlet</servlet-name>
+        <url-pattern>/MessageServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
